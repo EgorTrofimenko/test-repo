@@ -10,12 +10,7 @@
             background-color: #353131;
             color: #D9D9D9;
         }
-        nav {
-
-        }
     </style>
-</head>
-<body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-mb-4 mb-3 border-bottom">
         <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{% url 'home' %}">Главная</a>
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -25,7 +20,8 @@
           <a class="py-2 link-body-emphasis text-decoration-none" href="{% url 'contact' %}">Контакты</a>
         </nav>
     </div>
-
+</head>
+<body>
     <div class="container">
         {% block body %}{% endblock %}
     </div>
